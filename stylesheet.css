@@ -1,0 +1,55 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: rgb(87, 87, 90);
+  text-align: center;
+  color: aliceblue;
+  font-family: sans-serif;
+  font-size: 110%;
+  justify-content: center;
+}
+
+#sidebar {
+  width: 20%;
+  background-color: goldenrod;
+  padding: 1rem;
+}
+
+.nav-menu {
+  list-style-type: none;
+  padding: 0%;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  overflow: unset;
+}
+h2 {
+  color: rgb(87, 87, 90);
+}
+h3 {
+  color: rgb(87, 87, 90);
+}
+
+#profilephoto {
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+  border: 3px solid goldenrod;
+}
+
+.icons {
+  width: 3rem;
+  margin: 0.5rem;
+  height: auto;
+}
+
+footer {
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(126, 125, 125);
+}
